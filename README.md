@@ -1,62 +1,74 @@
-# 🔐 Cybersecurity Portfolio
+# 🔐 Cybersecurity Portfolio – Ingénieur Sécurité
 
 Bienvenue dans mon portfolio de cybersécurité.  
-Ce dépôt regroupe mes travaux, projets, scripts, recherches et documentations en lien avec la sécurité offensive, défensive, cloud et DFIR.
+Ce dépôt présente mes projets, outils, scripts, analyses et documentations autour de la sécurité défensive, offensive, l’audit, la conformité et l’automatisation.
 
-## 🧠 À propos de moi
+## 👨‍💻 À propos de moi
 Ingénieur en cybersécurité passionné par :
-- Blue Team (SOC, détection, réponse à incident)
-- Sécurité offensive (pentest éthique, web/app)
-- DFIR & analyse forensique
-- Cloud Security (AWS, Azure)
-- Automatisation & Python
 
-## 📂 Contenu du portfolio
+- 🛡️ Blue Team : SOC, détection, réponse à incident  
+- ⚖️ Conformité & Gouvernance : RGPD, ISO 27001, PCI-DSS  
+- 🔍 Audit de sécurité informatique (technique & organisationnel)  
+- ⚔️ Sécurité offensive : pentest éthique (réseau, web/app)  
+- 🧪 DFIR & analyse forensique (mémoire, réseau, systèmes)  
+- 🤖 Automatisation & Python (scripts SOC, scan, CTI)
 
-### 🛡️ Blue Team
-- Règles Sigma pour la détection SIEM  
-- Règles YARA pour la détection de patterns malveillants  
-- Playbooks d'incident response  
-- Automatisation SOC (scripts Python)
-
-### ⚔️ Red Team (safe)
-- Scripts d’énumération non intrusifs  
-- Fuzzers sûrs pour fichiers de test  
-- Notes d’apprentissage et méthodologies  
-- Labs Web Security (OWASP)
-
-### 🔎 DFIR
-- Analyse de mémoire (Volatility)  
-- Analyse de trafic réseau (PCAP)  
-- Timelines Windows  
-- Études de cas d’incidents fictifs
-
-### ☁️ Cloud Security
-- Exemples Terraform sécurisés  
-- Scans d’audit cloud  
-- Politiques IAM minimales  
-- Sécurité Kubernetes (RBAC)
-
-### 🧪 Scripts
-- Analyse de logs  
-- Extraction d’IOC  
-- Enrichissement d’IP / domaines via API  
-- Outils divers d'analyse
-
-### 📘 Write-ups
-- TryHackMe (sans solutions protégées)  
-- HackTheBox (méthodo uniquement)  
-- CTF Forensic / Crypto / Stegano
+Je combine approche technique, rigueur méthodologique et vision conformité/risk management.
 
 ---
 
-## 🛠️ Technologies utilisées
-- Python, Bash  
-- ELK / Splunk / Wazuh  
-- Suricata, Sysmon  
-- Volatility, Wireshark  
-- Docker, Terraform, Kubernetes
+## 📂 Structure du Portfolio
+
+### 🛡️ Blue Team (Défense)
+- Règles SIEM (Sigma)
+- Règles YARA
+- Enrichissement IOC / CTI
+- Playbooks de réponse à incident
+- Dashboards & détections MITRE ATT&CK
+
+### ⚖️ Gouvernance, Risques & Conformité (GRC)
+- Modèles de politiques de sécurité (PSSI, Politique mots de passe…)
+- Gap analysis ISO 27001 / PCI-DSS
+- Analyse d’impact RGPD (PIA pseudo-exemple)
+- Procédures organisationnelles (gestion incidents, droits d’accès)
+
+### 🔍 Audit de Sécurité
+- Checklists audit (systèmes, réseau, cloud)
+- Scripts d’automatisation d’audit
+- Rapports d’audit anonymisés (modèles)
+- Évaluation de maturité sécurité
+
+### ⚔️ Sécurité Offensive (safe & légal)
+- Scripts d’énumération non intrusifs
+- Analyse statique / SAST
+- Labs web (OWASP) & write-ups pédagogiques
+- Méthodologies pentest (PTES, OWASP WSTG)
+
+### 🧪 DFIR / Forensics
+- Analyses mémoire (Volatility)
+- Forensics réseau (PCAP)
+- Timelines Windows
+- Cas pratiques d'incidents fictifs
+
+### 🤖 Automatisation & Python
+- Scripts d’analyse de logs
+- Extraction & enrichissement IOC
+- Pipelines CTI
+- Outils utilitaires (génération rapports, API…)
+
+---
+
+## 🛠️ Technologies & Outils
+**Sécurité :** ELK, Wazuh, Suricata, Splunk, OSQuery  
+**Offensif :** Burp Suite, Nmap, ffuf (safe), Nikto (safe)  
+**DFIR :** Volatility, Autopsy, Kape, Wireshark  
+**Audit :** Lynis, OpenSCAP  
+**Automatisation :** Python, Bash, PowerShell  
+
+---
 
 ## 📫 Me contacter
+- Email : johnsawadogo57@gmail.com
+- LinkedIn : www.linkedin.com/in/john-ozaâré-sawadogo
 - Email : …  
 - LinkedIn : …  
